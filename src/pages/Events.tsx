@@ -39,22 +39,22 @@ const featuredEvent: Event = {
 const upcomingEvents: Event[] = [
   {
     id: 2,
-    name: "Hackathon 2024",
-    date: "5th April",
-    description: "24-hour coding challenge to solve real-world problems.",
+    name: "Inauguration ceremony of Peerhub ",
+    date: "21st March",
+    description: "Peerhub iem student chapter inaguration ceremony .",
     image: "/events/hackathon.jpg",
-    sponsors: ["Microsoft", "AWS"],
-    prizes: ["1st Prize: ₹50,000", "2nd Prize: ₹30,000", "3rd Prize: ₹20,000"],
+    sponsors: ["peerhub", "91.9friend fm"],
+    //prizes: ["1st Prize: ₹50,000", "2nd Prize: ₹30,000", "3rd Prize: ₹20,000"],
     certificates: true,
     registrationLink: "https://forms.google.com/hackathon",
     faqs: [
       {
-        question: "Team size?",
-        answer: "2-4 members per team"
+        //question: "Team size?",
+        //answer: "2-4 members per team"
       },
       {
         question: "What to bring?",
-        answer: "Your laptop and enthusiasm!"
+        answer: "Your  enthusiasm!"
       }
     ]
   },
