@@ -44,14 +44,11 @@ const upcomingEvents: Event[] = [
     description: "Peerhub iem student chapter inaguration ceremony .",
     image: "/events/hackathon.jpg",
     sponsors: ["peerhub", "91.9friend fm"],
-    //prizes: ["1st Prize: ₹50,000", "2nd Prize: ₹30,000", "3rd Prize: ₹20,000"],
+    prizes: ["1st Prize: 10000", "2nd Prize: ₹3,000", "3rd Prize: ₹2,000"],
     certificates: true,
-    registrationLink: "https://forms.google.com/hackathon",
+    registration link: "https://forms.google.com/hackathon",
     faqs: [
-      {
-        //question: "Team size?",
-        //answer: "2-4 members per team"
-      },
+     
       {
         question: "What to bring?",
         answer: "Your  enthusiasm!"
