@@ -33,7 +33,7 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
                 <Link
-                  to="/join"
+                  to="/join-us"
                   className="btn btn-primary w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md md:py-4 md:text-lg md:px-10"
                 >
                   Join Now

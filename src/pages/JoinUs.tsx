@@ -22,7 +22,9 @@ const benefits = [
 
 const requirements = [
   "Must be a current student of IEM",
-  "Maintain a minimum attendance of 75% in PeerHub events",
+  "want to build more connections",
+  "want to learn new things",
+  "want to be a part of a community",
   "Actively participate in community activities",
   "Follow the code of conduct"
 ];
@@ -105,7 +107,7 @@ export default function JoinUs() {
           </p>
           <div className="mt-6">
             <a
-              href="https://forms.google.com/peerhub-registration"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfANR4VmOz7F36r1pRPy4L0xNQ75qJOOcJo6bv8YJ06nDP3dQ/viewform?usp=header"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary inline-flex items-center text-lg px-8 py-3"

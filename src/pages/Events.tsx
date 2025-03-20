@@ -16,69 +16,74 @@ interface Event {
 
 const featuredEvent: Event = {
   id: 1,
-  name: "Quiz Competition",
-  date: "22nd March",
+  name: "Quiz Competition(QuizVerse)",
+  date: "25th March (1 pm) ",
+  
   description: "Test your knowledge and compete with the best! The winner gets exciting prizes and recognition.",
-  image: "/events/quiz.jpg",
-  sponsors: ["TechCorp", "InnovateHub"],
-  prizes: ["1st Prize: ₹10,000", "2nd Prize: ₹5,000", "3rd Prize: ₹3,000"],
+  image: "\ph iem\src\pages\quiz.webp",
+  sponsors: ["91.9 Friends FM"],
+  prizes: ["Cash Prizes , Certificates , Goodies "],
   certificates: true,
-  registrationLink: "https://forms.google.com/quiz-competition",
+  registrationLink: "https://forms.gle/e1ymKg7XP2MAbXEm9" ,
   faqs: [
     {
       question: "Who can participate?",
-      answer: "Any student from IEM can participate in the quiz competition."
+      answer: "Any student who is interested in compiteition can participate in the quiz competition."
     },
     {
       question: "What is the format?",
       answer: "The quiz will have multiple rounds including technical, general knowledge, and rapid-fire rounds."
+    },
+    {
+      question: "What is team sizes?",
+      answer: " 1-4 members per team."
     }
   ]
 };
 
 const upcomingEvents: Event[] = [
-  {
-    id: 2,
-    name: "Hackathon 2024",
-    date: "5th April",
-    description: "24-hour coding challenge to solve real-world problems.",
-    image: "/events/hackathon.jpg",
-    sponsors: ["Microsoft", "AWS"],
-    prizes: ["1st Prize: ₹50,000", "2nd Prize: ₹30,000", "3rd Prize: ₹20,000"],
-    certificates: true,
-    registrationLink: "https://forms.google.com/hackathon",
-    faqs: [
-      {
-        question: "Team size?",
-        answer: "2-4 members per team"
-      },
-      {
-        question: "What to bring?",
-        answer: "Your laptop and enthusiasm!"
-      }
-    ]
-  },
-  {
-    id: 3,
-    name: "Tech Workshop",
-    date: "15th April",
-    description: "Learn about the latest technologies from industry experts.",
-    image: "/events/workshop.jpg",
-    sponsors: ["Google Developers", "Intel"],
-    prizes: [],
-    certificates: true,
-    registrationLink: "https://forms.google.com/workshop",
-    faqs: [
-      {
-        question: "Prerequisites?",
-        answer: "Basic programming knowledge"
-      },
-      {
-        question: "Duration?",
-        answer: "Full day workshop (9 AM - 5 PM)"
-      }
-    ]
-  }
+  // {
+  //   id: 2,
+  //   name: "Hackathon 2024",
+  //   date: "5th April",
+  //   description: "24-hour coding challenge to solve real-world problems.",
+  //   image: "/events/hackathon.jpg",
+  //   sponsors: ["Microsoft", "AWS"],
+  //   prizes: ["1st Prize: ₹50,000", "2nd Prize: ₹30,000", "3rd Prize: ₹20,000"],
+  //   certificates: true,
+  //   registrationLink: "https://forms.google.com/hackathon",
+  //   faqs: [
+  //     {
+  //       question: "Team size?",
+  //       answer: "2-4 members per team"
+  //     },
+  //     {
+  //       question: "What to bring?",
+  //       answer: "Your laptop and enthusiasm!"
+  //     }
+  //   ]
+  // },
+  // {
+  //   id: 3,
+  //   name: "Tech Workshop",
+  //   date: "15th April",
+  //   description: "Learn about the latest technologies from industry experts.",
+  //   image: "/events/workshop.jpg",
+  //   sponsors: ["Google Developers", "Intel"],
+  //   prizes: [],
+  //   certificates: true,
+  //   registrationLink: "https://forms.google.com/workshop",
+  //   faqs: [
+  //     {
+  //       question: "Prerequisites?",
+  //       answer: "Basic programming knowledge"
+  //     },
+  //     {
+  //       question: "Duration?",
+  //       answer: "Full day workshop (9 AM - 5 PM)"
+  //     }
+  //   ]
+  // }
 ];
 
 function EventCard({ event, featured = false }: { event: Event; featured?: boolean }) {
@@ -170,7 +175,7 @@ export default function Events() {
         </section>
 
         <section className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Upcoming Events</h2>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white"> Best of luck </h2>
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             {upcomingEvents.map((event) => (
               <EventCard key={event.id} event={event} />

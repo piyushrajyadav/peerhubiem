@@ -5,8 +5,8 @@ const images = [
   {
     id: 1,
     src: '/gallery/event1.jpg',
-    title: 'Tech Workshop 2023',
-    description: 'Students learning about web development',
+    title: 'Quiz Competition (QuizVerse)',
+    description: 'Students competing in the quiz competition',
   },
   {
     id: 2,

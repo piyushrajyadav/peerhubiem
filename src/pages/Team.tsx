@@ -5,8 +5,7 @@ const coreMembers = [
   {
     name: 'Anand kumar Singh',
     role: 'President',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQH1z38P3mVmIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719917491348?e=1747267200&v=beta&t=SXsAwDD8wkHo7xskkPOIJ_gqjCwncv2xOD9ACsNz7eA',
-    bio: 'Leading IEM PeerHub Student Chapter with vision and dedication',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQELrH9UiyDLKA/profile-displayphoto-shrink_800_800/B56ZWgIHc0GoAc-/0/1742148237996?e=1747872000&v=beta&t=baL-X5VtPKEHBXzqITly4wQyGl39w0Tbu9AouULx_Gg',
   },
   {
     name: 'Piyush Yadav',
@@ -26,29 +25,35 @@ const coreMembers = [
     //image: 'https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     bio: 'Handling our social media presence',
   },
+  {
+    name: 'Ritikant juhi ',
+    role: 'EventManager',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQGAUN7witLBKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718252678856?e=1747872000&v=beta&t=iBcfHez5LYbds28oJATBMgzbCbM3-t5iAo3ZbZ2i2oM',
+    bio: 'Handling the evtnts ',
+  },
 ];
 
-const domainLeads = [
-  {
-    name: 'xyz',
-    role: 'Photography Lead',
-    //image: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    bio: 'Capturing moments that matter',
-  },
-  {
-    name: 'abc',
-    role: 'Web Development Lead',
-    //image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    //image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    bio: 'Building the digital future',
-  },
-  {
-    name: '123',
-    role: 'Hackathon Lead',
-    //image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    bio: 'Fostering innovation through code',
-  },
-];
+//const domainLeads = [
+  // {
+  //   name: 'xyz',
+  //   role: 'Photography Lead',
+  //   //image: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+  //   bio: 'Capturing moments that matter',
+  // },
+  // {
+  //   name: 'abc',
+  //   role: 'Web Development Lead',
+  //   //image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+  //   //image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+  //   bio: 'Building the digital future',
+  // },
+  // {
+  //   name: '123',
+  //   role: 'Hackathon Lead',
+  //   //image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+  //   bio: 'Fostering innovation through code',
+  // },
+//];
 
 const TeamMemberCard = ({ member }: { member: typeof coreMembers[0] }) => (
   <motion.div
@@ -90,14 +95,14 @@ export default function Team() {
           </div>
         </section>
 
-        <section>
+        {/* <section>
           <h2 className="text-3xl font-semibold text-center mb-8">Domain Leads</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {domainLeads.map((member) => (
               <TeamMemberCard key={member.name} member={member} />
             ))}
           </div>
-        </section>
+        </section> */}
       </div>
     </div>
   );
